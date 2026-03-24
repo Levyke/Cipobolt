@@ -4,3 +4,55 @@
     --box-shadow: 2px 2px 5px 2px #45454570;
     --dark: #454545;
 }
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+    background-color: var(--dark);
+    padding: 2%;
+}
+nav a {
+    text-decoration: none;
+    color: var(--lgray);
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/head.webp);
+}
+
+.page {
+    background-color: var(--lgray);
+}
+
+main {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+}
+
+article {
+    width: 22%;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 1%;
+}
+
+article img {
+    width: 90%;
+    margin: auto;
+}
+
+button {
+    padding: 2%;
+    border: 2px solid var(--red);
+    border-radius: 5px;
+}
